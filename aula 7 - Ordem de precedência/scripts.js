@@ -42,4 +42,17 @@ console.log(five === "5")
 
 //Estritamente diferente (tipo e conteúdo)
 console.log(five !== three)
+// ---------------------------------------------------------- //
 
+// variáveis exemplo
+let email = true
+let password = false
+
+// Operador and (&&), irá retornar true se todas as condições forem true.
+console.log(email && password)
+
+// operador OR ||, se uma condição for verdadeira, as demais serão true.
+console.log(email || password)
+
+// operador NOT !, irá verificar se é falso 
+console.log(!email, !password)
