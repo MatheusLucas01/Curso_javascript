@@ -28,3 +28,23 @@ console.log(`
 // Template literals
 console.log(`Olá, ${user_name}. Você conectou com o E-mail: ${email}, seja bem vindo ao sistema!`)
 
+let name = "Matheus"
+let idade = 22
+
+console.log(`Olá ${name}, você tem ${idade} anos!`)
+
+// Tipo number
+console.log(3)
+console.log(4.5)
+console.log(-3)
+
+// Tipo boolean
+let isLoading = true
+console.log(typeof isLoading)
+
+// Undefined e Null
+let emptiness
+console.log("O valor é ", emptiness) // Variável não definida
+
+let empty = null
+console.log("O valor é: ", empty) // Variável vazia
