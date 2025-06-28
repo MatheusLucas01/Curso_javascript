@@ -48,3 +48,4 @@ console.log("O valor é ", emptiness) // Variável não definida
 
 let empty = null
 console.log("O valor é: ", empty) // Variável vazia
+

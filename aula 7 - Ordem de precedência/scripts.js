@@ -43,7 +43,6 @@ console.log(five === "5")
 //Estritamente diferente (tipo e conteúdo)
 console.log(five !== three)
 // ---------------------------------------------------------- //
-
 // variáveis exemplo
 let email = true
 let password = false
@@ -56,3 +55,5 @@ console.log(email || password)
 
 // operador NOT !, irá verificar se é falso 
 console.log(!email, !password)
+
+
