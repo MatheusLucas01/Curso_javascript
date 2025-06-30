@@ -28,3 +28,15 @@ switch (age) {
         console.log("Opção onválida")
 
 }
+let note = 2
+
+switch (note) {
+    case 1:
+        console.log("Errou")
+        break
+    case 2:
+        console.log("Acertou")
+        break
+    default:
+        console.log("Opção inválida.")
+}
