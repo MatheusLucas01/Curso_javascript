@@ -49,7 +49,7 @@ if (idade <= 18) {
 // Exemplo operador ternário
 let color = "Azul"
 console.log(
-    color !== "Yellow"
+    color != "Azul"
         ? "Diferente"
         : "Igual"
 )
@@ -68,3 +68,15 @@ console.log(
         ? "Reprovado"
         : "Aprovado"
 )
+// Operador condicional com if, else if e else.
+let disparos = 20
+
+if (disparos <= 10) {
+    console.log("Você atirou pouco!")
+}
+else if (disparos > 20) {
+    console.log("Muito bem atirou muito")
+}
+else {
+
+}
