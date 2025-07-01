@@ -28,3 +28,43 @@ function joinText(text1, text2 = "", text3){ // O text2 = "" -> Será um valor p
 }
 
 joinText("Matheus", "Lucas", "Santos")
+
+// --------------------------------------------------//
+// Parte 2
+
+function soma(a, b){
+    let = result = a + b
+
+    return result
+}
+
+let response = sum(7, 7) // Chamada da função, fora da função!
+console.log(response)
+
+
+// Escopo de função, utilizando mesmo antes de ser declarada.
+// Dá certo por que acontece o Hoisting, a função é içada!
+
+showMessage("Olá, Matheus")
+
+function showMessage(message){
+    console.log(message)
+    // Função dentro de função
+    endLine()
+
+    function endLine(){
+        console.log("---------")
+    }
+}
+
+showMessage("Tudo bem?")
+
+
+// Exemplo com return, chamando ela fora do escopo.
+function division(a, b){
+    let resultado = a / b
+    return resultado
+}
+
+let chamada = division(10, 5)
+console.log(chamada)
