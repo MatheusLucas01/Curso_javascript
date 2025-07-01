@@ -14,3 +14,10 @@ console.log(
     nome === "Matheus"
         ? "olá Matheus."
         : "voce não é Matheus")
+
+let object = "Lapis"
+console.log(
+    object === "Caneta"
+    ? "Essa é uma caneta"
+    : "Essa não é uma caneta!"
+)
