@@ -15,7 +15,13 @@ argumentos -> "Matheus", "matheus@gmail.com" -> Valor que é passado na função
 
 */
 const showMessage2 = (username, email) => {
-   console.log(`Olá ${username}, seu email é: ${email}`) 
+    console.log(`Olá ${username}, seu email é: ${email}`)
 }
 
 showMessage2("Matheus", "matheus@gmail.com")
+
+const messages = (name, age) => {
+    console.log(`Olá ${name}, seja bem vindo ao sistema. Legal você ter ${age} anos de idade.`)
+}
+
+messages("Matheus ", 22)
